@@ -13,7 +13,8 @@ class ShoppingCart extends Component {
             <div className="shopping-cart-button-container">
               <button
                 className="shopping-cart-button"
-                onClick={() => this.props.removeFromCart}
+                // onClick={() => this.props.removeFromCart}
+                onClick={() => this.props.removeFromCart(index)}
               >
                 Remove From Shopping Cart
               </button>
